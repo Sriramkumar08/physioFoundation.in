@@ -1,0 +1,102 @@
+.about {
+  padding: 80px 0;
+  background: #f9fbfd;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.about-container {
+  width: 90%;
+  margin: auto;
+
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.about-subtitle {
+  color: #666;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+/* Cards Layout */
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* Card */
+.about-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.about-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Icon Circle */
+.icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+/* Icon Colors */
+.blue {
+  background: #e6f0ff;
+  color: #3b82f6;
+}
+
+.green {
+  background: #e8f8f0;
+  color: #16a34a;
+}
+
+.purple {
+  background: #f3e8ff;
+  color: #9333ea;
+}
+
+.orange {
+  background: #fff4e6;
+  color: #f97316;
+}
+
+.about-card h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.about-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .about-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+}

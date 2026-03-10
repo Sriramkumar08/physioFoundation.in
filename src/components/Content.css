@@ -1,0 +1,44 @@
+
+/* Wrapper to center container */
+.mission-wrapper {
+  margin-top: 80px;
+  justify-content: center;
+  display: flex;
+
+}
+
+/* White Container Card */
+.mission-card {
+  background: #ffffff;
+  max-width: 900px;
+  padding: 40px;
+  background-color: rgb(231, 231, 239);
+  border-radius: 14px;
+  border: 1px solid #eee;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* Heading */
+.mission-card h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.mission-card p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .about-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mission-wrapper{
+    margin-top: 20px;
+  }
+}

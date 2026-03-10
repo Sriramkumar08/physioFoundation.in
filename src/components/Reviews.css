@@ -1,0 +1,116 @@
+/* SECTION */
+.reviews-section {
+  margin-top: 100px;
+  padding: 60px 0;
+  background: #f9fbfd;
+}
+
+/* SAME WIDTH AS OTHER SECTIONS */
+.reviews-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+/* TITLE */
+.reviews-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* RATING */
+.reviews-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.stars {
+  color: #f4b400;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.rating-number {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.reviews-subtitle {
+  margin-top: 10px;
+  color: #777;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.review-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: left;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid #eee;
+}
+
+/* CARD HOVER EFFECT */
+.review-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* CARD STARS */
+.card-stars {
+  color: #f4b400;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* REVIEW TEXT */
+.review-card p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* NAME */
+.review-card h4 {
+  margin-bottom: 5px;
+}
+
+/* DATE */
+.review-card span {
+  color: #999;
+  font-size: 14px;
+}
+
+.cta-text {
+  font-size: 22px;
+  font-weight: 500;
+  margin: auto;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  max-width: 1000px;
+  line-height: 1.4;
+}
+
+@media (max-width: 992px) {
+  .reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+}
