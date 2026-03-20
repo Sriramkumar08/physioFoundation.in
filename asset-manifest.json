@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/physioFoundation.in/static/css/main.b9dd431b.css",
-    "main.js": "/physioFoundation.in/static/js/main.39c07d43.js",
+    "main.css": "/physioFoundation.in/static/css/main.75a1b0a3.css",
+    "main.js": "/physioFoundation.in/static/js/main.6effdb2f.js",
     "static/js/453.6842df06.chunk.js": "/physioFoundation.in/static/js/453.6842df06.chunk.js",
     "static/media/videoplayback.mp4": "/physioFoundation.in/static/media/videoplayback.8cdcf872d00b73acfafc.mp4",
     "static/media/copy.jpg": "/physioFoundation.in/static/media/copy.fd065b71ba0b92aff75a.jpg",
     "static/media/doc.jpg": "/physioFoundation.in/static/media/doc.07d0e19f4020a78fa19f.jpg",
     "static/media/doc-copy.jpg": "/physioFoundation.in/static/media/doc-copy.6d1d03b19abcfcd44626.jpg",
     "static/media/award4.jpg": "/physioFoundation.in/static/media/award4.2c32616432d47c06de9b.jpg",
-    "static/media/award8.jpg": "/physioFoundation.in/static/media/award8.c18cd9be789403caee01.jpg",
     "static/media/Kiru.jpeg": "/physioFoundation.in/static/media/Kiru.3f20f4c371e6d10f6b35.jpeg",
+    "static/media/award1.jpg": "/physioFoundation.in/static/media/award1.e31c5a8c5ecf9fec905a.jpg",
     "static/media/Kathir.jpeg": "/physioFoundation.in/static/media/Kathir.679a96bdf3ce9e972ca8.jpeg",
+    "static/media/award8.jpg": "/physioFoundation.in/static/media/award8.496c49348eaf6a9ce206.jpg",
     "static/media/Anand.jpeg": "/physioFoundation.in/static/media/Anand.80a0e167dd0aefcc239f.jpeg",
     "static/media/popup.jpg": "/physioFoundation.in/static/media/popup.18fc1580432a7571d19f.jpg",
     "static/media/award2.jpg": "/physioFoundation.in/static/media/award2.a8b147161045cb26a5fb.jpg",
@@ -22,7 +23,6 @@
     "static/media/Shankar.jpeg": "/physioFoundation.in/static/media/Shankar.b08b57d9069745178c1c.jpeg",
     "static/media/award7.jpg": "/physioFoundation.in/static/media/award7.63457d7d393bd709cae5.jpg",
     "static/media/award6.jpg": "/physioFoundation.in/static/media/award6.16a3c8a4a5e4d059e243.jpg",
-    "static/media/award1.jpg": "/physioFoundation.in/static/media/award1.97fa0ebcbcaee79346ce.jpg",
     "static/media/Shalini.jpeg": "/physioFoundation.in/static/media/Shalini.7a87fbfd98fa5be94f1e.jpeg",
     "static/media/neuro.jpg": "/physioFoundation.in/static/media/neuro.97d0d2085f063ac9d0f5.jpg",
     "static/media/Manul.jpg": "/physioFoundation.in/static/media/Manul.4267609f2d178cf113ad.jpg",
@@ -33,12 +33,12 @@
     "static/media/LOGO.jpeg": "/physioFoundation.in/static/media/LOGO.3d986705ca3c094d4e3c.jpeg",
     "static/media/icons8.gif": "/physioFoundation.in/static/media/icons8.857558889caa89d8178f.gif",
     "index.html": "/physioFoundation.in/index.html",
-    "main.b9dd431b.css.map": "/physioFoundation.in/static/css/main.b9dd431b.css.map",
-    "main.39c07d43.js.map": "/physioFoundation.in/static/js/main.39c07d43.js.map",
+    "main.75a1b0a3.css.map": "/physioFoundation.in/static/css/main.75a1b0a3.css.map",
+    "main.6effdb2f.js.map": "/physioFoundation.in/static/js/main.6effdb2f.js.map",
     "453.6842df06.chunk.js.map": "/physioFoundation.in/static/js/453.6842df06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9dd431b.css",
-    "static/js/main.39c07d43.js"
+    "static/css/main.75a1b0a3.css",
+    "static/js/main.6effdb2f.js"
   ]
 }
