@@ -70,7 +70,29 @@ function DoctorsPage() {
       {/* ── DOCTOR GRID ── */}
       <div className="doctor-container">
 
-        {/* Doctor 1 */}
+                {/* Doctor 1 */}
+        <div className="card">
+          <div className="card-img-wrap">
+            <img src={kathir} alt="Dr Kathiravan" className="doctor-img" />
+            <span className="card-exp-badge">35+ Yrs</span>
+            <span className="card-specialty-badge">Founder</span>
+          </div>
+          <div className="card-body">
+            <h2>Dr. M. Kathiravan</h2>
+            <p className="role">Founder & Chief Sports Physiotherapist</p>
+            <div className="card-divider" />
+            <p><FaBookOpen className="icon green" /><span>BPT, MSPT</span></p>
+            <p><FaAward className="icon purple" /><span>Manual & Sports Specialist</span></p>
+            <p><FaCalendarAlt className="icon orange" /><span>35+ Years Experience</span></p>
+            <p className="desc">
+              Former Physiotherapist for Indian National Sports Teams. Expert in
+              sports injury rehabilitation, musculoskeletal therapy & holistic yoga-based physiotherapy.
+            </p>
+          </div>
+        </div>
+
+
+        {/* Doctor 2 */}
         <div className="card">
           <div className="card-img-wrap">
             <img src={shankar} alt="Dr Shankar" className="doctor-img" />
@@ -91,7 +113,7 @@ function DoctorsPage() {
           </div>
         </div>
 
-        {/* Doctor 2 */}
+        {/* Doctor 3 */}
         <div className="card">
           <div className="card-img-wrap">
             <img src={Kiru} alt="Dr Kiruthika" className="doctor-img" />
@@ -102,7 +124,7 @@ function DoctorsPage() {
             <h2>Dr. B. Kiruthika</h2>
             <p className="role">Consultant Women's Physiotherapist</p>
             <div className="card-divider" />
-            <p><FaBookOpen className="icon green" /><span>BPT, MPT (Sports)</span></p>
+            <p><FaBookOpen className="icon green" /><span>BPT</span></p>
             <p><FaAward className="icon purple" /><span>Orthopedic & Neuro Rehabilitation</span></p>
             <p><FaCalendarAlt className="icon orange" /><span>2+ Years Experience</span></p>
             <p className="desc">
@@ -112,7 +134,7 @@ function DoctorsPage() {
           </div>
         </div>
 
-        {/* Doctor 3 */}
+        {/* Doctor 4 */}
         <div className="card">
           <div className="card-img-wrap">
             <img src={Anand} alt="Dr Anand" className="doctor-img" />
@@ -123,7 +145,7 @@ function DoctorsPage() {
             <h2>Dr. PC. Anand</h2>
             <p className="role">Consultant Physiotherapist</p>
             <div className="card-divider" />
-            <p><FaBookOpen className="icon green" /><span>BPT</span></p>
+            <p><FaBookOpen className="icon green" /><span>BPT, MPT (Sports)</span></p>
             <p><FaAward className="icon purple" /><span>Cardio Rehabilitation</span></p>
             <p><FaCalendarAlt className="icon orange" /><span>4+ Years Experience</span></p>
             <p className="desc">
@@ -131,7 +153,7 @@ function DoctorsPage() {
           </div>
         </div>
 
-        {/* Doctor 4 */}
+        {/* Doctor 5 */}
         <div className="card">
           <div className="card-img-wrap">
             <img src={shalini} alt="Dr Shalini" className="doctor-img" />
@@ -147,27 +169,6 @@ function DoctorsPage() {
             <p><FaCalendarAlt className="icon orange" /><span>5+ Years Experience</span></p>
             <p className="desc">
               Focuses on women's health physiotherapy, Also the health of the female reproductive system from puberty through menopause, covering the uterus, ovaries, fallopian tubes, and breasts. 
-            </p>
-          </div>
-        </div>
-
-        {/* Doctor 5 */}
-        <div className="card">
-          <div className="card-img-wrap">
-            <img src={kathir} alt="Dr Kathiravan" className="doctor-img" />
-            <span className="card-exp-badge">35+ Yrs</span>
-            <span className="card-specialty-badge">Founder</span>
-          </div>
-          <div className="card-body">
-            <h2>Dr. M. Kathiravan</h2>
-            <p className="role">Founder & Chief Sports Physiotherapist</p>
-            <div className="card-divider" />
-            <p><FaBookOpen className="icon green" /><span>BPT, MSPT</span></p>
-            <p><FaAward className="icon purple" /><span>Manual & Sports Specialist</span></p>
-            <p><FaCalendarAlt className="icon orange" /><span>35+ Years Experience</span></p>
-            <p className="desc">
-              Former Physiotherapist for Indian National Sports Teams. Expert in
-              sports injury rehabilitation, musculoskeletal therapy & holistic yoga-based physiotherapy.
             </p>
           </div>
         </div>

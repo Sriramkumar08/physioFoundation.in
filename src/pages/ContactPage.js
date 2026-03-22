@@ -40,8 +40,8 @@ const sendEmail = (e) => {
 
                        {/* header section */}
               
-                    <section className="doctor-hero">
-                <div className="doctor-hero-container">
+                    <section className="doctor-hero-2">
+                <div className="doctor-hero-containers">
               
                   {/* LEFT CONTENT */}
                   <div className="hero-left">
@@ -75,89 +75,79 @@ const sendEmail = (e) => {
                 </div>
               </section>
               
+    <div className="contact-body">
+        <div className="contact-container">
 
+          <div className="contact-info">
+            <h2>Contact Information</h2>
+            <p className="contact-info-sub">Reach out through any channel. We are available 24/7.</p>
 
-      <div className="contact-container">
+            <div className="info-box">
+              <p className="info-label">Address</p>
+              <p className="info-text">4/122 A Chinneri Vayal Kadu<br />Pallapatti, Salem, TN 636009</p>
+              <a href="https://www.google.com/maps?q=4/122+A+Chinneri+Vayal+Kadu+Pallapatti+Salem" target="_blank" rel="noopener noreferrer" className="info-link">Get Directions →</a>
+            </div>
 
-        {/* LEFT SIDE */}
-        <div className="contact-info">
+            <div className="info-box">
+              <p className="info-label">Phone</p>
+              <a href="tel:+919345243443" className="info-phone">+91 93452 43443</a>
+              <p className="info-sub">Call us anytime</p>
+            </div>
 
-          <h2>Contact Information</h2>
-          <p>Reach out to us through any of the following channels. We're available 24/7.</p>
+            <div className="info-box info-box-green">
+              <div className="info-box-row">
+                <div>
+                  <p className="info-label">Working Hours</p>
+                  <p className="info-text-bold">Open 24 Hours</p>
+                  <p className="info-sub">Emergency services available</p>
+                </div>
+                <span className="live-dot"></span>
+              </div>
+            </div>
 
-          <div className="info-box">
-            <h4>📍 Address</h4>
-            <p>
-              4/122 A Chinneri Vayal Kadu <br/>
-              Pallapatti, Salem <br/>
-              Tamil Nadu - 636009
-            </p>
-
-            <a
-              href="https://www.google.com/maps?q=4/122+A+Chinneri+Vayal+Kadu+Pallapatti+Salem"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Get Directions →
-            </a>
+            <div className="info-box">
+              <p className="info-label">Service Areas</p>
+              <p className="info-text-bold">Salem and surrounding areas</p>
+              <p className="info-sub">Home visit services available</p>
+            </div>
           </div>
 
-          <div className="info-box">
-            <h4>📞 Phone</h4>
-            <p>+91 93452 43443</p>
-            <span>Call us anytime</span>
-          </div>
+          <div className="contact-form-wrapper">
+            <h2>Send Us a Message</h2>
+            <p className="contact-info-sub">Fill out the form and we will get back to you soon</p>
 
-          <div className="info-box">
-            <h4>⏰ Working Hours</h4>
-            <p>Open 24 Hours</p>
-            <span>All Days - Emergency Services Available</span>
-          </div>
-
-          <div className="info-box">
-            <h4>📩 Service Areas</h4>
-            <p>Salem and surrounding areas</p>
-            <span>Home visit services available</span>
+            <form ref={form} onSubmit={sendEmail} className="contact-form">
+              <div className="form-group">
+                <label>Your Name</label>
+                <input type="text" name="user_name" placeholder="Enter your name" required />
+              </div>
+              <div className="form-group">
+                <label>Phone Number</label>
+                <input type="tel" name="user_phone" placeholder="+91 XXXXX XXXXX" required />
+              </div>
+              <div className="form-group">
+                <label>Email (optional)</label>
+                <input type="email" name="user_email" placeholder="your.email@example.com" />
+              </div>
+              <div className="form-group">
+                <label>Your Condition</label>
+                <textarea name="message" rows="4" placeholder="Tell us about your pain or condition..."></textarea>
+              </div>
+              <button type="submit" className="submit-btn">Send Message</button>
+              <a href="https://wa.me/916382871225" target="_blank" rel="noopener noreferrer" className="whatsapp-btn">Chat on WhatsApp instead</a>
+            </form>
           </div>
 
         </div>
-
-        {/* RIGHT SIDE */}
-        <div className="contact-form">
-
-          <h2>Send Us a Message</h2>
-          <p>Fill out the form below and we'll get back to you soon</p>
-
-          <form ref={form} onSubmit={sendEmail}>
-
-            <input type="text" placeholder="Your Name" required />
-
-            <input type="tel" placeholder="+91 XXXXX XXXXX" required />
-
-            <input type="email" placeholder="your.email@example.com" />
-
-            <textarea placeholder="Tell us about your condition or inquiry..." rows="5"></textarea>
-
-            <button type="submit">Send Message</button>
-
-          </form>
-
-        </div>
-
       </div>
 
-      {/* GOOGLE MAP */}
-
-      <div className="map-section">
-
-        <h2>Find Us on Map</h2>
-
+      <div className="contact-map">
         <iframe
-          title="map"
+          title="Physio Foundation Location"
           src="https://maps.google.com/maps?q=4/122%20A%20Chinneri%20Vayal%20Kadu%20Pallapatti%20Salem&t=&z=13&ie=UTF8&iwloc=&output=embed"
           loading="lazy"
+          allowFullScreen
         ></iframe>
-
       </div>
 
     </section>

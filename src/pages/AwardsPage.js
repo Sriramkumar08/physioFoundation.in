@@ -50,8 +50,8 @@ const awards = [
   },
   {
     img: award8,
-    title: "Tamil Nadu Business Iconic Awards",
-    desc: "Honoured among top healthcare professionals",
+    title: "The rotary salem green's best physiotherapist Awards this year",
+    desc: "Honoured by Vanakam ads",
   },
   {
     img: award9,
